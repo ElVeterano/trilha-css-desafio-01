@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(assets/images/banner.png); 
+    height: 600px;
+    border-bottom: 1px solid #33A8DB80;
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .banner-content {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.banner .logo img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.banner .logo {
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* FUNCIONA COMO A PROPRIEDADE COLOR PARA O TEXTO */
+    background-clip: text; /* PARA O LINEAR FUNCIONAR CORRETAMENTE DEVE-SE UTILIZAR O BACKGROUND-CLIP TEXT, E O WEBKIT PARA FICAR COMPATIVEL COM O CHROME, TAMBEM É NECESSARIO A COLOR ESTAR TRANSPARENTE */
+    -webkit-background-clip: text;
+    width: 600px;
+    height: 47.2px;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+}
+
+p {
+    color: white;
+    display: block;
+}
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+/* main */ 
+
+section {
+    margin: 100px auto;
+}
+
+#course-content {
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#course-content .modules-list {
+  margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    margin: 0px auto 24px;
+    width: 530px;
+    background-color: #252525;
+    padding: 16px;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 100px;
+  }
+
+.module span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    height: 560px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#transform-world p {
+    text-transform: lowercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 3px 2px #33A8DB;
+    max-width: 250px;
+
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+/* RODAPÉ ------------------------- */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #33A8DB80;
+    padding: 60px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2));
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+}
+
+footer .dio-logo {
+    width: 300px;
+}
